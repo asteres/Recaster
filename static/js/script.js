@@ -9,7 +9,7 @@ new Vue({
         },
     methods: {
         changeTitle: function(event) {
-            this.title = event.target.value;
+            return this.title = event.target.value;
         }
     }
 });
